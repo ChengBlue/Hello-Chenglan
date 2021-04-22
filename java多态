@@ -1,0 +1,8 @@
+class shape{
+	void draw(){}
+}
+class circle extends shape{
+	void draw(){
+		System.out.println("circle.draw()");
+		}
+}
